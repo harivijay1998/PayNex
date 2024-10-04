@@ -916,6 +916,10 @@ footer{
 
 }
 
+.copyright1{
+  display: none;
+}
+
 .mainlog{
   display: flex;
   align-items: center;
@@ -955,7 +959,7 @@ footer{
 
 .fopara{
   max-width: 300px;
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .socialmedia{
@@ -1016,10 +1020,203 @@ footer{
   display: none;
 }
 
-@media screen and (min-width:300px) and (max-width:900px){
+.subscribe1{
+  display: none;
+}
+
+@media screen and (min-width:451px) and (max-width:900px){
+  body{
+    min-width: 451px;
+    max-width: 900px;
+  }
   .header,.content2,.midcontent2,.midcontent,.plan,.review{
     gap: 20px;
     flex-direction: column;
+  }
+
+  .content1{
+    margin-top: 150px;
+    font-size: 25px;
+  }
+  .col{
+    font-size: 50px;
+  }
+  
+  .option{
+    display: block;
+  }
+  .opt{
+    background-color: #625dfa;
+    color: #f8f8f8;
+    border: none;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-inline-end: 10px;
+  }
+
+  .head2{
+    text-align: center;
+  }
+
+  .v1{
+    text-align: center;
+    
+  }
+
+ .content3{
+  justify-content: center;
+  align-items: center;
+ }
+
+ .para{
+  text-align: center;
+  margin-left: 30px;
+ }
+
+ .bar,.track{
+  justify-content: center;
+ }
+  .content{
+    display: none;
+  }
+
+  .feild{
+    width: 80%;
+  }  
+
+  .grpimg{
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .container3{
+    margin-top: 0px;
+  }
+
+  .head4{
+    align-items: center;
+  }
+  .satisfaction ,.feedback{
+    text-align: center;
+    padding: 0%;
+    margin-inline: auto;
+    width: 520px;
+    border-radius: 15px;
+  }
+  .Satis,.feed{
+    justify-content: center;
+  }
+
+  .paragraph{
+    margin-bottom: 50px;
+  }
+
+  .get_app{
+    text-align: center;
+  }
+
+  .container_payment
+  {
+    margin-top: 0px;
+  }
+  .payment{
+    margin-top: 20px;
+  }
+  .plan{
+    margin-bottom: 0px;
+  }
+  .log{
+    display: none;
+  }
+
+  .subscribe{
+    display: none ;
+  }
+
+ .foot{
+  height: 800px;
+ }
+
+ .subscribe1{
+  display:block;
+ }
+ .subscribe1{
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0%;
+  height: 350px; 
+  font-size: 15px;
+  gap: 20px;
+  background-color: #f8f8f8;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.subem, .subbtn{
+  height: 50px;
+  width: 400px;
+  border-radius: 20px;
+  font-size: large;
+  border:2px solid;
+}
+
+.subbtn{
+  margin-top: 20px;
+}
+
+.subem{
+  background-color: aliceblue;
+  color: #101010;
+  text-align: center;
+}
+.subbtn{
+  background-color: #eee9e9;
+  color: #101010;
+  text-align: center;
+}
+
+.container1,.container2,.container3,.container_payment{
+  margin-top: 0%;
+}
+
+.copyright{
+  display: block;
+}
+
+.copyright1{
+  display: none;
+}
+
+.log3{
+  display: none;
+}
+
+.imgbg{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.text{
+  color: #101010;
+}
+
+}
+
+
+@media screen and (min-width:300px) and (max-width:450px){
+  .header,.content2,.midcontent2,.midcontent,.plan,.review{
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  body{
+    min-width: 300px;
+    max-width: 450px;
   }
 
   .option{
@@ -1070,6 +1267,10 @@ footer{
   .logos,.log{
     display: none;
   }
+
+  .log3{
+    display: none;
+  }
   .content3,.img5 ,.plan{
     gap: 20px;
   }
@@ -1079,11 +1280,12 @@ footer{
   }
   .satisfaction,.feedback{
     text-align: center;
-    border-radius: 0px;
+    border-radius: 15px;
   }
   .imgbg{
     height: auto;
     object-position: center;
+    display: none;
   }
 
   .text{
@@ -1120,10 +1322,10 @@ footer{
   .blog{
   flex-direction: column;
   }
-  .subscribe{
+  .subscribe1{
     justify-content: center;
     text-align: center;
-    align-items: center;
+    align-items:center;
   }
   .btn{
     display: flex;
@@ -1143,6 +1345,7 @@ footer{
 
   .satisfaction,.feedback{
     height:300px;
+    border-radius: 15px;
     
   }
 
@@ -1159,6 +1362,93 @@ footer{
     width: auto;
     margin: auto;
     
+  }
+
+  .copyright{
+    display: none;
+  }
+
+  .copyright1{
+    display: block;
+  }
+
+  .content1{
+    margin-top: 150px;
+    h1{
+      font-size: 45px;
+    }
+  }
+
+  .container1,.container2,.container3,.container_payment,.midcontent,.midcontent2,.pro{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .text{
+    color: #f8f8f8;
+    margin-left: 0px;
+  }
+
+  .mainlog{
+    justify-content: center;
+  }
+
+  .subem{
+    text-align: start;
+  }
+
+  .imgbg{
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .review{
+   max-width: 380px;
+  }
+
+  .subscribe1{
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0%;
+    margin-inline: 30px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .subpara{
+    text-align: center;
+  }
+
+  .sub_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subbtn{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .imgbg{
+    display: none;
+  }
+
+  .of_review{
+    font-size: 15px;
+  }
+  .mainlog{
+    h1{
+      font-size: 20px;
+    }
+  }
+
+  .user_details{
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -1193,16 +1483,37 @@ footer{
   .blog{
   flex-direction: column;
   }
-  .subscribe{
+  .subscribe1{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     margin: 0%;
-    height: 350px; }
+    gap:20px;
+    height: 350px;
+    background-color: aliceblue;
+    padding: 40px;
+    font-size: larger;
+  }
+  .subscribe1{
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0%;
+    margin-inline: 30px;
+    border-radius: 20px;
+  }
 
   .subem, .subbtn{
     height: 40px;
     width: 200px;
     border-radius: 20px;
+    background-color: white;
+    color: #101010;
+  }
+
+  .subem ,.subbtn{
+    border: 1px solid;
   }
   .container_payment{
     width: 90%;
@@ -1223,10 +1534,18 @@ footer{
     width: 90%;
   }
 
-  .feild,.mail,.getstarted{
-    font-size: 12px;
+  .feild,.mail{
+    font-size: 15px;
   }
 
+  .subscribe{
+    display: none;
+  }
+
+  .getstarted{
+    width: 90px;
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:320px){
@@ -1274,7 +1593,7 @@ footer{
 
   
 
-  .subscribe{
+  .subscribe1{
     height: auto;
     width: 100%;
     justify-content: flex-start;
@@ -1311,5 +1630,17 @@ footer{
     border-radius: 0px;
   }
 
+  .subscribe{
+    display: none;
+  }
+
+  .user_details{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .getstarted{
+    width: 90px;
+  }
 }
 
