@@ -1168,6 +1168,7 @@ footer{
   background-color: #f8f8f8;
   padding: 40px;
   border-radius: 10px;
+  font-family: "Manrope", system-ui;
 }
 
 .subem, .subbtn{
@@ -1180,6 +1181,7 @@ footer{
 
 .subbtn{
   margin-top: 20px;
+  width: 300px;
 
 }
 
@@ -1347,6 +1349,7 @@ footer{
     justify-content: center;
     text-align: center;
     align-items:center;
+    font-family: "Manrope", system-ui;;
   }
   .btn{
     display: flex;
@@ -1436,6 +1439,7 @@ footer{
     margin-inline: 30px;
     justify-content: center;
     flex-direction: column;
+    font-family: "Manrope", system-ui;;
   }
   .subpara{
     text-align: center;
@@ -1520,6 +1524,7 @@ footer{
     background-color: aliceblue;
     padding: 40px;
     font-size: larger;
+    font-family: "Manrope", system-ui;;
   }
   .subscribe1{
     align-items: center;
@@ -1542,6 +1547,7 @@ footer{
   .subbtn{
     background-color: #625dfa;
     color: #f8f8f8;
+    width: 150px;
   }
   .subem ,.subbtn{
     border: 1px solid;
@@ -1610,6 +1616,7 @@ footer{
 
   .subscribe1{
     width: 85%;
+
   }
 
   .midcontent{
@@ -1639,8 +1646,12 @@ footer{
   .sub_head,.subbtn,.subem,.subpara,.fopara,.review_para ,.para,.para2,.para5,.para9,.para10,.para_review,.paragraph,p,.line1,.line2,.mail,.year,.cust,.project{
     font-size: small;
   }
-  .subbtn,.subem ,.first,.second,.third{
+  .subem ,.first,.second,.third{
     width: 130px;
+  }
+
+  .subbtn{
+    width: 100px;
   }
 
   ul{
