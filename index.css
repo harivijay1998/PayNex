@@ -792,14 +792,15 @@ margin-left: 7px;
 
 .btn1{
   margin-top: 20px;
-  background-color: #f8f8f8;
-  color: #282828;
+  background-color:#625dfa;
+  color: #f8f8f8;
   padding: 8px;
   height: 50px;
   width: 200px;
   border-radius: 50px;
   font-size: 20px;
   cursor: pointer;
+  border: none;
 }
 
 
@@ -1022,6 +1023,7 @@ footer{
 
 .subscribe1{
   display: none;
+  font-family: "Manrope", system-ui;
 }
 
 @media screen and (min-width:451px) and (max-width:900px){
@@ -1091,12 +1093,21 @@ footer{
     object-position: center;
   }
 
+  .head3{
+    font-size: 25px;
+  }
+
   .container3{
     margin-top: 0px;
   }
 
   .head4{
     align-items: center;
+    font-size: 25px;
+  }
+
+  .line5,.line6{
+    font-size: 45px;
   }
   .satisfaction ,.feedback{
     text-align: center;
@@ -1126,6 +1137,7 @@ footer{
   }
   .plan{
     margin-bottom: 0px;
+    font-size: larger;
   }
   .log{
     display: none;
@@ -1168,6 +1180,7 @@ footer{
 
 .subbtn{
   margin-top: 20px;
+
 }
 
 .subem{
@@ -1176,8 +1189,8 @@ footer{
   text-align: center;
 }
 .subbtn{
-  background-color: #eee9e9;
-  color: #101010;
+  background-color: #625dfa;
+  color: #f8f8f8;
   text-align: center;
 }
 
@@ -1203,6 +1216,10 @@ footer{
 }
 .text{
   color: #101010;
+}
+
+.sub_head,.subbtn,.subem,.subpara,.fopara,.review_para ,.para,.para2,.para5,.para9,.para10,.para_review,.paragraph,p,.line1,.line2,.mail,.year,.cust,.project{
+  font-size: 22px;
 }
 
 }
@@ -1241,6 +1258,10 @@ footer{
 
   .v3{
     display: none;
+  }
+
+  .v2{
+    width: 300px;
   }
 
   .content{
@@ -1450,6 +1471,11 @@ footer{
     display: flex;
     flex-direction: column;
   }
+
+  .v2{
+    width: 215px;
+  }
+
 }
 
 
@@ -1512,6 +1538,11 @@ footer{
     color: #101010;
   }
 
+
+  .subbtn{
+    background-color: #625dfa;
+    color: #f8f8f8;
+  }
   .subem ,.subbtn{
     border: 1px solid;
   }
@@ -1577,7 +1608,9 @@ footer{
     margin-left: 17px;
   }
 
-  
+  .subscribe1{
+    width: 85%;
+  }
 
   .midcontent{
     padding: 0px;
@@ -1595,7 +1628,6 @@ footer{
 
   .subscribe1{
     height: auto;
-    width: 100%;
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
